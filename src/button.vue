@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button class="g-button">按钮</button>
+    <button class="g-button">
+      <slot />
+    </button>
   </div>
 </template>
 

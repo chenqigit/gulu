@@ -28,14 +28,23 @@
         }
     </style>
     <style>
-
+      .icon {
+        width: 1rem;
+        height: 1rem;
+      }
     </style>
 </head>
 <body>
     <div id="app">
-        <g-button></g-button>
+        <g-button>
+          <svg class="icon">
+            <use xlink:href="#isettings"></use>
+          </svg>
+          我爱JS
+        </g-button>
     </div>
 <script src="./src/app.js">
 </script>
+<script src="//at.alicdn.com/t/font_934176_z7ydydunsh.js"></script>
 </body>
 </html>
