@@ -1,0 +1,22 @@
+{
+  "name": "gulu",
+  "version": "0.0.1",
+  "description": "这是一个ui框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenqigit/gulu.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "cq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenqigit/gulu/issues"
+  },
+  "homepage": "https://github.com/chenqigit/gulu#readme"
+}
