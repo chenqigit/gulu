@@ -24,7 +24,8 @@ import spies from 'chai-spies'
 chai.use(spies)
 
 const expect = chai.expect
-// 单元测试
+try {
+  // 单元测试
 {
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
@@ -102,4 +103,7 @@ const expect = chai.expect
   let button = vm.$el
   button.click()
   expect(spy).to.have.been.called()
+}
+} catch (error) {
+  console.error(error)
 }
